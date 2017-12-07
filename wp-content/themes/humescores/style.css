@@ -1,14 +1,14 @@
 /*!
-Theme Name: Humescores
-Theme URI: http://underscores.me/
-Author: Morten Rand-Hendriksen
-Author URI: https://mor10.com/courses
-Description: An awsome new Humescores-based theme!
-Version: 1.0.0
+Theme Name: jprac
+Theme URI: http://github.com/ideaguy3d
+Author: julius alvarado
+Author URI: http://julius3d.com
+Description: An awesome new WordPress theme!
+Version: 0.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: humescores
-Tags:
+Text Domain: jprac
+Tags: javascript, sass
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -264,13 +264,14 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family: "PT Serif", Georgia, Cambria, "Times New Roman", Times, serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
+	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 	clear: both;
 }
 
