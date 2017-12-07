@@ -1,11 +1,10 @@
 vendor
 img
 images
+uploads
 .idea
-**/.idea
 node_modules
+plugins
 **/*.xml
 **/**/*.xml
-.idea/workspace.xml
-api/.idea/workspace.xml
-**/**/plugins
+
