@@ -2,9 +2,10 @@ vendor
 img
 images
 uploads
+wp-content/uploads
 .idea
 node_modules
 plugins
 **/*.xml
 **/**/*.xml
-
+wp-config.php

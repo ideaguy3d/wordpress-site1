@@ -3,7 +3,7 @@ var themename = 'humescores';
 var gulp = require('gulp'),
     // Prepare and optimize code etc
     autoprefixer = require('autoprefixer'),
-    browserSync = require('browser-sync').create(),
+    // browserSync = require('browser-sync').create(),
     image = require('gulp-image'),
     jshint = require('gulp-jshint'),
     postcss = require('gulp-postcss'),
@@ -61,7 +61,8 @@ gulp.task('watch', function () {
     gulp.watch([root + '**/*.css', root + '**/*.scss'], ['css']);
     gulp.watch(js + '**/*.js', ['javascript']);
     gulp.watch(img + 'RAW/**/*.{jpg,JPG,png}', ['images']);
-    gulp.watch(root + '**/*').on('change', browserSync.reload);
+    gulp.watch(root + '**/*');
+    //.on('change', browserSync.reload);
 });
 
 

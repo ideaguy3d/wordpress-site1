@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wp1-v491');
+define('DB_NAME', 'humescores');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '@Eh]6UIryk)w-^Mo^%Ki`e[9bkU|K*p4c#rY;$oAFaJ5VeGoHx%q#(mxL^`?w(Ux');
-define('SECURE_AUTH_KEY',  '501X1(P[C0dIe;}swatROW.ym`R#AYKiZ-l;hp{tTXJngtlDa1g0j4p;,31j,>/3');
-define('LOGGED_IN_KEY',    's+Bq?1!tHcWE>shw0Z=N^UsI~V}YS%j!.,qsB^8k!}y8(TSd|@Oue68YNTe/lpAw');
-define('NONCE_KEY',        '3f+8nx@oQa D)XTd-:f*Mn!>ien7.$cA-`^ j5Rt<^hd<] GsFRFj2`T9q+BV[LY');
-define('AUTH_SALT',        '|l<B,484g$?,^U_jZcLep!6Kd)-$^^>Y?W`qMbff{VOSraE6R(K9i6}b[q/@=hq5');
-define('SECURE_AUTH_SALT', '-/!+*s*#MkS>mmq#+.w}a,AwSnGdn~>|lOeXb,E:FjFmL$8s_ND*#Z5 ,H-jA7Er');
-define('LOGGED_IN_SALT',   ']>pxN.b&G(oT2=!Sgu-Z7fV6PGqrIT2j[OEdg}rX6Pc)V4KK=f,q:kDKK0AQ6OTb');
-define('NONCE_SALT',       'M7BqE2e`BmhHjdVF;hBQPg]>.8./c05Gc5n)@?Jt.VP>F6~sik5+NYH(;m^4rryJ');
+define('AUTH_KEY',         '-gh(/XS[gi:}(5=hxe5J.}V25Ek)GwMy P|x~v!^v/S [;2VnCu[hwIf*>Pg+W,h');
+define('SECURE_AUTH_KEY',  '7C{a;tvbRQ3c0?tXnYUdofb5YI7oJ+x%RT$_fT<>r[sM]#i4%GjuT`,LA#?66QC(');
+define('LOGGED_IN_KEY',    ')80f4;~HwI[!pHS`S~fK8%KYLrnF,y@iFgcF~h!tvVxb.EpNi4|j9)4rtShn}?}b');
+define('NONCE_KEY',        'Oi,>p@k<eM9#p+Q@<;w*G-&,(:^3LC!uL9b6_HoZF%GSLV<vSORvr5OJykQ~&`W4');
+define('AUTH_SALT',        ',eG(2O)xE36uYSL7HWiK^]6(J%+,jG-%p|S3NjwAa*|=yJ??6Kq;dJl/qw{P @^4');
+define('SECURE_AUTH_SALT', 'fvIsI<nMQ}g$uh8pUmCq6&i2P%qx]X/).uogMB9$Y]~|Nll=L6?n5KYVXUpszD%c');
+define('LOGGED_IN_SALT',   'EX}75inp=Myjb8!tRGI ~-F(C~1dM^%N ^fSfO{yya{V&A2ZT0iJE%ym@ikz$.`3');
+define('NONCE_SALT',       '3DbAHjE`t.q@mT3YguS,RkO}z),46|r@&jnSskk8(yOw3@Z>MIR9n=PH!5g|FqX0');
 
 /**#@-*/
 
@@ -77,7 +77,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 
